@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/menu_movie">
+
+    <fragment
+        android:id="@+id/menu_movie"
+        android:name="com.adewijayanto.defilmsapp3.ui.movie.MovieFragment"
+        android:label="Movie"
+        tools:layout="@layout/fragment_movie" >
+        <action
+            android:id="@+id/action_menu_movie_to_menu_tv_show"
+            app:destination="@id/menu_tv_show" />
+        <action
+            android:id="@+id/action_menu_movie_to_menu_favorite"
+            app:destination="@id/menu_favorite" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu_tv_show"
+        android:name="com.adewijayanto.defilmsapp3.ui.tvshow.TvShowFragment"
+        android:label="TV Show"
+        tools:layout="@layout/fragment_tv_show">
+        <action
+            android:id="@+id/action_menu_tv_show_to_menu_favorite"
+            app:destination="@id/menu_favorite" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu_favorite"
+        android:name="com.adewijayanto.defilmsapp3.ui.favorite.FavoriteFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>

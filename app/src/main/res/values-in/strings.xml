@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DEFILMS</string>
+    <string name="genre_film">Genre Film</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="settings">Pengaturan</string>
+    <string name="settings_language">Pengaturan Bahasa</string>
+    <string name="text_genre">genre</string>
+    <string name="title_film">Judul Film</string>
+    <string name="rating">Peringkat</string>
+    <string name="language">Bahasa</string>
+    <string name="date_releas">Tanggal Rilis</string>
+    <string name="description">Deskripsi</string>
+    <string name="origin_country">Negara Produksi</string>
+    <string name="first_releas">Pertama Rilis</string>
+    <string name="genre_tv_show">Genre Acara Tv</string>
+    <string name="title_tv_show">Judul Acara Tv</string>
+    <string name="title">Judul</string>
+    <string name="movie">Film</string>
+    <string name="tv_show">Acara Tv</string>
+    <string name="favorite">Favorit</string>
+    <string name="oke">OKE</string>
+    <string name="message">Ingin Membatalkan Penghapusan Ini?</string>
+    <string name="detail_movie">Detail Film</string>
+    <string name="detail_tvshow">Detail Acara Tv </string>
+    <string name="error_fav_movie">Belum ada Favourite Film</string>
+    <string name="error_fav_tvshow">Belum ada Favourite Acara Tv</string>
+</resources>

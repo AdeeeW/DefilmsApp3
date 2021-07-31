@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DEFILMS</string>
+    <string name="genre_film">Genre Film</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="settings">Settings</string>
+    <string name="settings_language">Settings Languages</string>
+    <string name="text_genre">genre</string>
+    <string name="title_film">Title Film</string>
+    <string name="rating">Rating</string>
+    <string name="language">Language</string>
+    <string name="date_releas">Date Releas</string>
+    <string name="description">Description</string>
+    <string name="origin_country">Production Countries</string>
+    <string name="first_releas">First Releas</string>
+    <string name="genre_tv_show">Genre Tv Show</string>
+    <string name="title_tv_show">Title Tv Show</string>
+    <string name="title">Title</string>
+    <string name="movie">Movie</string>
+    <string name="tv_show">Tv Show</string>
+    <string name="favorite">Favorite</string>
+    <string name="oke">OKE</string>
+    <string name="message">Want to Cancel Delete?</string>
+    <string name="detail_movie">Detail Movie</string>
+    <string name="detail_tvshow">Detail TV Show</string>
+        <string name="error_fav_movie">There is no Favorite Film yet</string>
+        <string name="error_fav_tvshow">There is no Favorite Tv Show yet</string>
+</resources>

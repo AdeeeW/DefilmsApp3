@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.adewijayanto.defilmsapp3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_d"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_d"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DefilmsApp3"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.detail.tvshow.DetailTvShowActivity"
+            android:parentActivityName=".ui.detail.tvshow.DetailTvShowActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.detail.tvshow.DetailTvShowActivity" />
+        </activity>
+        <activity android:name=".ui.detail.movie.DetailMovieActivity"
+            android:parentActivityName=".ui.detail.movie.DetailMovieActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.detail.movie.DetailMovieActivity" />
+        </activity>
+        <activity
+            android:name=".ui.settings.SettingsActivity"
+            android:parentActivityName=".ui.settings.SettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.settings.SettingsActivity" />
+        </activity>
+        <activity
+            android:name=".ui.splashscreen.SpalshScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.home.HomeActivity" />
+    </application>
+
+</manifest>
